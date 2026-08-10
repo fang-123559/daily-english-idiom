@@ -13,20 +13,20 @@
   <!-- 含义 -->
   <rect x="100" y="203" width="60" height="26" rx="6" fill="#7F77DD"/>
   <text x="130" y="221" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">含义</text>
-  <text x="145" y="222" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">面对现实；承担后果；接受批评。</text>
+  <text x="170" y="222" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">面对现实；承担后果；接受批评。</text>
   <!-- 例句 -->
   <rect x="100" y="248" width="60" height="26" rx="6" fill="#0F6E56"/>
   <text x="130" y="266" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">例句</text>
-  <text x="145" y="267" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"You made a mistake, now you have to <tspan font-weight="700" fill="#0F6E56">face the music</tspan>."（你犯了错，得承担后果。）</text>
-  <text x="145" y="283" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"He had to <tspan font-weight="700" fill="#0F6E56">face the music</tspan> after missing the deadline."（错过截止日期后他得接受批评。）</text>
+  <text x="170" y="267" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"You made a mistake, now you have to <tspan font-weight="700" fill="#0F6E56">face the music</tspan>."（你犯了错，得承担后果。）</text>
+  <text x="170" y="283" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"He had to <tspan font-weight="700" fill="#0F6E56">face the music</tspan>."（他得接受批评。）</text>
   <!-- 来源 -->
   <rect x="100" y="313" width="60" height="26" rx="6" fill="#BA7517"/>
   <text x="130" y="331" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">来源</text>
-  <text x="145" y="332" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">19世纪剧场或军队传统，1840年代美国文献记载。</text>
+  <text x="170" y="332" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">19世纪剧场或军队传统，1840年代美国文献记载。</text>
   <!-- 记忆 -->
   <rect x="100" y="378" width="60" height="26" rx="6" fill="#D85A30"/>
   <text x="130" y="396" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">记忆</text>
-  <text x="145" y="397" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">演员台上失误，只能面对乐池 → face=面对，music=音乐/后果。</text>
+  <text x="170" y="397" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">演员台上失误，只能面对乐池 → face=面对，music=音乐/后果。</text>
   <!-- 页脚 -->
   <text x="340" y="475" font-family="sans-serif" font-weight="400" font-size="12" fill="#888780" text-anchor="middle">每日一俗语 · 让英语融入生活</text>
 </svg>

@@ -13,20 +13,20 @@
   <!-- 含义 -->
   <rect x="100" y="203" width="60" height="26" rx="6" fill="#7F77DD"/>
   <text x="130" y="221" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">含义</text>
-  <text x="145" y="222" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">全部，所有，彻头彻尾，毫无保留。</text>
+  <text x="170" y="222" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">全部，所有，彻头彻尾，毫无保留。</text>
   <!-- 例句 -->
   <rect x="100" y="248" width="60" height="26" rx="6" fill="#0F6E56"/>
   <text x="130" y="266" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">例句</text>
-  <text x="145" y="267" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"They went <tspan font-weight="700" fill="#0F6E56">the whole nine yards</tspan> for the project."（他们为项目倾尽全力。）</text>
-  <text x="145" y="283" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"She decorated <tspan font-weight="700" fill="#0F6E56">the whole nine yards</tspan> for the party."（她为派对准备得满满当当。）</text>
+  <text x="170" y="267" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"They went <tspan font-weight="700" fill="#0F6E56">the whole nine yards</tspan> for the project."（他们为项目倾尽全力。）</text>
+  <text x="170" y="283" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"She decorated <tspan font-weight="700" fill="#0F6E56">the whole nine yards</tspan> for the party."（她为派对准备得满满当当。）</text>
   <!-- 来源 -->
   <rect x="100" y="313" width="60" height="26" rx="6" fill="#BA7517"/>
   <text x="130" y="331" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">来源</text>
-  <text x="145" y="332" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">20世纪中叶美国，1960年代广泛使用；二战弹链/裁缝布料等起源说法。</text>
+  <text x="170" y="332" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">20世纪中叶美国，1960年代广泛使用；二战弹链/裁缝布料等起源说法。</text>
   <!-- 记忆 -->
   <rect x="100" y="378" width="60" height="26" rx="6" fill="#D85A30"/>
   <text x="130" y="396" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">记忆</text>
-  <text x="145" y="397" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">裁缝铺用九码布做一整套西装 → whole + nine yards = 全部搞定。</text>
+  <text x="170" y="397" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">裁缝铺用九码布做一整套西装 → whole + nine yards = 全部搞定。</text>
   <!-- 页脚 -->
   <text x="340" y="475" font-family="sans-serif" font-weight="400" font-size="12" fill="#888780" text-anchor="middle">每日一俗语 · 让英语融入生活</text>
 </svg>

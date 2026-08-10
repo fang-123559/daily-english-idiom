@@ -14,20 +14,20 @@
   <!-- 含义 -->
   <rect x="100" y="215" width="60" height="26" rx="6" fill="#7F77DD"/>
   <text x="130" y="233" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">含义</text>
-  <text x="145" y="234" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">别高兴太早；不要过早乐观；别指望还没到手的东西。</text>
+  <text x="170" y="234" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">别高兴太早；不要过早乐观；别指望还没到手的东西。</text>
   <!-- 例句 -->
   <rect x="100" y="258" width="60" height="26" rx="6" fill="#0F6E56"/>
   <text x="130" y="276" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">例句</text>
-  <text x="145" y="277" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"Don't <tspan font-weight="700" fill="#0F6E56">count your chickens before they hatch</tspan>."（别高兴太早。）</text>
-  <text x="145" y="293" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"I know you're excited, but don't <tspan font-weight="700" fill="#0F6E56">count your chickens</tspan>."（我知道你兴奋，但别高兴太早。）</text>
+  <text x="170" y="277" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"Don't <tspan font-weight="700" fill="#0F6E56">count your chickens before they hatch</tspan>."（别高兴太早。）</text>
+  <text x="170" y="293" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">"Don't <tspan font-weight="700" fill="#0F6E56">count your chickens</tspan> yet."（别高兴太早。）</text>
   <!-- 来源 -->
   <rect x="100" y="318" width="60" height="26" rx="6" fill="#BA7517"/>
   <text x="130" y="336" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">来源</text>
-  <text x="145" y="337" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">伊索寓言《挤牛奶的女孩》（约公元前600年），1570年代英语文献记载。</text>
+  <text x="170" y="337" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">伊索寓言《挤牛奶的女孩》（约公元前600年），1570年代英语文献记载。</text>
   <!-- 记忆 -->
   <rect x="100" y="378" width="60" height="26" rx="6" fill="#D85A30"/>
   <text x="130" y="396" font-family="sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" text-anchor="middle">记忆</text>
-  <text x="145" y="397" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">农妇头顶牛奶桶幻想发财，洒了一地 → count=数小鸡，hatch=孵化。</text>
+  <text x="170" y="397" font-family="sans-serif" font-weight="400" font-size="13" fill="#26215C">农妇头顶牛奶桶幻想发财，洒了一地 → count=数小鸡，hatch=孵化。</text>
   <!-- 页脚 -->
   <text x="340" y="475" font-family="sans-serif" font-weight="400" font-size="12" fill="#888780" text-anchor="middle">每日一俗语 · 让英语融入生活</text>
 </svg>
