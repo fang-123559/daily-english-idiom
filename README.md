@@ -34,16 +34,34 @@
 
 ## 📦 安装方法
 
-### 方式一：手动下载（推荐新手）
+### 方式一：直接把链接丢给 AI Agent（小白最推荐 🌟）
+
+**什么都不用自己操作**，只需把下面这段话复制给你的 AI 助手（WorkBuddy / Codex / Claude 等），让它自己去下载、安装，再教你怎么用：
+
+> 请帮我把这个 GitHub 仓库的 Skill 安装好：
+> 仓库：https://github.com/fang-123559/daily-english-idiom
+> 请先下载（git clone 或下载 ZIP），把 `daily-english-idiom` 文件夹放到我的 skills 目录
+> （WorkBuddy: `~/.workbuddy/skills/`，Codex: `~/.codex/skills/`，Claude: `~/.claude/skills/`），
+> 确认 `SKILL.md` 在文件夹根目录，然后告诉我怎么用它。
+
+也可以直接让 Agent 执行下面的命令完成下载：
+
+```bash
+git clone https://github.com/fang-123559/daily-english-idiom.git
+# 然后按提示把 daily-english-idiom 文件夹复制到你对应平台的 skills 目录
+```
+
+### 方式二：手动下载（推荐新手）
 
 1. 点击右上角 **Code → Download ZIP** 下载并解压
 2. 将解压后的文件夹放入你的 Skill 目录：
    - **WorkBuddy**：`~/.workbuddy/skills/`
+   - **Codex**：`~/.codex/skills/`
    - **Claude**：`~/.claude/skills/`
    - 其他支持 Agent Skills 的平台：放入对应 skills 目录
 3. 确保文件夹名为 `daily-english-idiom`，且 `SKILL.md` 在文件夹根目录
 
-### 方式二：Git 克隆
+### 方式三：Git 克隆
 
 ```bash
 git clone https://github.com/fang-123559/daily-english-idiom.git
@@ -54,13 +72,13 @@ git clone https://github.com/fang-123559/daily-english-idiom.git
 
 ### 方式一：对话中直接触发
 
-在 AI 对话中输入任意触发词，即可生成今日俗语卡片：
+安装完成后，在 AI 对话中输入任意触发词，即可生成今日俗语卡片：
 
 > "每日英语俗语"、"推荐一个英语俗语"、"今天学什么俗语"
 
 ### 方式二：接入自动化定时推送（推荐）
 
-在 WorkBuddy / Claude 等平台创建一个每日定时任务，prompt 可参考 [prompts/automation-prompt.md](prompts/automation-prompt.md)：
+在 WorkBuddy / Codex / Claude 等平台创建一个每日定时任务，prompt 可参考 [prompts/automation-prompt.md](prompts/automation-prompt.md)：
 
 ```text
 每天推荐一条英语俗语，严格按 SKILL.md 的 daily-english-idiom 模板执行：
