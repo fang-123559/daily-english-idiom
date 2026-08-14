@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520">
+  <defs>
+    <radialGradient id="aurora1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aurora2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aurora3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#EC4899" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 深空底 -->
+  <rect width="680" height="520" fill="#0B0E1A"/>
+
+  <!-- 顶部极光 -->
+  <ellipse cx="200" cy="0" rx="300" ry="150" fill="url(#aurora1)"/>
+  <ellipse cx="480" cy="-20" rx="280" ry="140" fill="url(#aurora2)"/>
+  <ellipse cx="340" cy="10" rx="200" ry="110" fill="url(#aurora3)"/>
+
+  <!-- 星星 -->
+  <circle cx="120" cy="90" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="162" cy="66" r="1" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="602" cy="120" r="1.5" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="95" cy="150" r="1" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="620" cy="70" r="1" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- 玻璃卡：渐变描边 -->
+  <rect x="70" y="40" width="540" height="440" rx="20" fill="#131930" opacity="0.95"/>
+  <rect x="70" y="40" width="540" height="440" rx="20" fill="none" stroke="url(#edgeGrad)" stroke-width="1"/>
+
+  <!-- 日期：发光描边胶囊 -->
+  <rect x="486" y="60" width="104" height="30" rx="15" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.9"/>
+  <text x="538" y="79" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="500" font-size="13" fill="#7DE3F4" text-anchor="middle">6月18日</text>
+
+  <!-- 标题 -->
+  <text x="340" y="130" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="34" fill="#F4F6FF" text-anchor="middle">Pull someone's leg</text>
+  <!-- 音标 -->
+  <text x="340" y="158" font-family="Georgia,'Times New Roman',serif" font-size="14" fill="#7C86A8" text-anchor="middle">/pʊl ˈsʌmwʌnz leɡ/</text>
+  <!-- 三色渐变强调条 -->
+  <rect x="270" y="170" width="140" height="4" rx="2" fill="url(#barGrad)"/>
+
+  <!-- 分隔线 -->
+  <line x1="100" y1="192" x2="580" y2="192" stroke="#232B47" stroke-width="1"/>
+
+  <!-- 含义：竖线 + 彩色标签 -->
+  <rect x="100" y="200" width="4" height="24" rx="2" fill="#A78BFA"/>
+  <text x="114" y="217" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="13" fill="#A78BFA">含义</text>
+  <text x="180" y="217" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#C9D1E8">开玩笑；愚弄；戏弄。朋友间轻松的调侃。</text>
+
+  <!-- 例句 -->
+  <rect x="100" y="246" width="4" height="24" rx="2" fill="#34D399"/>
+  <text x="114" y="263" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="13" fill="#34D399">例句</text>
+  <text x="180" y="263" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#C9D1E8">"You're <tspan font-weight="700" fill="#34D399">pulling my leg</tspan>, right?"（你在逗我吧？）</text>
+  <text x="180" y="279" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#C9D1E8">"I was just <tspan font-weight="700" fill="#34D399">pulling your leg</tspan>."（我刚开玩笑的。）</text>
+
+  <!-- 来源 -->
+  <rect x="100" y="308" width="4" height="24" rx="2" fill="#FBBF24"/>
+  <text x="114" y="325" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="13" fill="#FBBF24">来源</text>
+  <text x="180" y="325" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#C9D1E8">19世纪英国，最早见于1811年文献，源于恶作剧拉腿绊倒。</text>
+
+  <!-- 记忆 -->
+  <rect x="100" y="362" width="4" height="24" rx="2" fill="#F472B6"/>
+  <text x="114" y="379" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="13" fill="#F472B6">记忆</text>
+  <text x="180" y="379" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#C9D1E8">朋友讲笑话时伸手拉你裤脚 → pull=拉，leg=腿 → 拉腿=开玩笑。</text>
+
+  <!-- 页脚 -->
+  <line x1="140" y1="451" x2="235" y2="451" stroke="#232B47" stroke-width="1"/>
+  <line x1="445" y1="451" x2="540" y2="451" stroke="#232B47" stroke-width="1"/>
+  <text x="340" y="455" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#5A6486" text-anchor="middle">每日一俗语 · 让英语融入生活</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520">
+  <defs>
+    <filter id="peachShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#F4AFA0" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- 奶桃底 -->
+  <rect width="680" height="520" fill="#FFF6F2"/>
+
+  <!-- 底部双层波浪 -->
+  <path d="M 0,478 Q 85,458 170,478 T 340,478 T 510,478 T 680,478 L 680,520 L 0,520 Z" fill="#FFE4DC"/>
+  <path d="M 0,492 Q 85,474 170,492 T 340,492 T 510,492 T 680,492 L 680,520 L 0,520 Z" fill="#FFD0C4" opacity="0.55"/>
+
+  <!-- 卡片 -->
+  <rect x="75" y="45" width="530" height="430" rx="28" fill="#FFFFFF" filter="url(#peachShadow)"/>
+
+  <!-- 顶部彩旗：绳子 + 五面小旗 -->
+  <path d="M 100,58 Q 310,96 520,58" stroke="#E8B4A6" stroke-width="1.5" fill="none"/>
+  <path d="M 172,70 L 196,70 L 184,94 Z" fill="#FFB4A2"/>
+  <path d="M 235,75 L 259,75 L 247,99 Z" fill="#FFD0C4"/>
+  <path d="M 298,77 L 322,77 L 310,101 Z" fill="#FF9E8A"/>
+  <path d="M 361,75 L 385,75 L 373,99 Z" fill="#FFC9B8"/>
+  <path d="M 424,70 L 448,70 L 436,94 Z" fill="#F4A48E"/>
+
+  <!-- 日期：圆形徽章 + 虚线外圈 -->
+  <circle cx="572" cy="72" r="28" fill="none" stroke="#FF8FA3" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.45"/>
+  <circle cx="572" cy="72" r="24" fill="#FF8FA3"/>
+  <text x="572" y="77" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="13" fill="#FFFFFF" text-anchor="middle">6.18</text>
+
+  <!-- 标题：深可可纯色 -->
+  <text x="340" y="145" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="33" fill="#3D2C29" text-anchor="middle">Pull someone's leg</text>
+  <!-- 音标 -->
+  <text x="340" y="172" font-family="Georgia,'Times New Roman',serif" font-size="14" fill="#B09A92" text-anchor="middle">/pʊl ˈsʌmwʌnz leɡ/</text>
+  <!-- 蜜桃强调条 -->
+  <rect x="310" y="184" width="60" height="4" rx="2" fill="#FFB4A2"/>
+
+  <!-- 圆点虚线分隔 -->
+  <line x1="110" y1="196" x2="570" y2="196" stroke="#F6D9D0" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 6"/>
+
+  <!-- 四段标签：统一蜜桃浅底，靠文字区分 -->
+  <rect x="100" y="212" width="64" height="26" rx="13" fill="#FFEDE8"/>
+  <text x="132" y="229" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="12" fill="#E06B54" text-anchor="middle">含义</text>
+  <text x="180" y="229" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5A4640">开玩笑；愚弄；戏弄。朋友间轻松的调侃。</text>
+
+  <rect x="100" y="258" width="64" height="26" rx="13" fill="#FFEDE8"/>
+  <text x="132" y="275" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="12" fill="#E06B54" text-anchor="middle">例句</text>
+  <text x="180" y="275" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5A4640">"You're <tspan font-weight="700" fill="#E06B54">pulling my leg</tspan>, right?"（你在逗我吧？）</text>
+  <text x="180" y="291" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5A4640">"I was just <tspan font-weight="700" fill="#E06B54">pulling your leg</tspan>."（我刚开玩笑的。）</text>
+
+  <rect x="100" y="310" width="64" height="26" rx="13" fill="#FFEDE8"/>
+  <text x="132" y="327" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="12" fill="#E06B54" text-anchor="middle">来源</text>
+  <text x="180" y="327" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5A4640">19世纪英国，最早见于1811年文献，源于恶作剧拉腿绊倒。</text>
+
+  <rect x="100" y="364" width="64" height="26" rx="13" fill="#FFEDE8"/>
+  <text x="132" y="381" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="12" fill="#E06B54" text-anchor="middle">记忆</text>
+  <text x="180" y="381" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#5A4640">朋友讲笑话时伸手拉你裤脚 → pull=拉，leg=腿 → 拉腿=开玩笑。</text>
+
+  <!-- 页脚：两侧小圆点 -->
+  <circle cx="248" cy="446" r="2.5" fill="#FFD0C4"/>
+  <circle cx="432" cy="446" r="2.5" fill="#FFD0C4"/>
+  <text x="340" y="450" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#C4A99E" text-anchor="middle">每日一俗语 · 让英语融入生活</text>
+</svg>

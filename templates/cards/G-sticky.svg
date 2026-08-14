@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520">
+  <defs>
+    <filter id="stickyShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#7A6B3F" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- 桌面底 -->
+  <rect width="680" height="520" fill="#EAE6DC"/>
+
+  <!-- 便利贴主体 -->
+  <rect x="90" y="50" width="500" height="420" rx="4" fill="#FFED99" filter="url(#stickyShadow)"/>
+
+  <!-- 右下折角 -->
+  <path d="M 560 470 L 590 470 L 590 440 Z" fill="#F0D878"/>
+  <path d="M 560 470 L 590 440" stroke="#D9BC5E" stroke-width="1" fill="none"/>
+
+  <!-- 顶部胶带 -->
+  <rect x="275" y="36" width="130" height="30" rx="2" fill="#D9C9A8" opacity="0.65" transform="rotate(-2 340 51)"/>
+
+  <!-- 日期：荧光笔底 + 手账字 -->
+  <rect x="502" y="80" width="76" height="18" fill="#FF9DB0" opacity="0.55"/>
+  <text x="540" y="94" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="13" fill="#3A3428" text-anchor="middle">6月18日</text>
+
+  <!-- 左上角涂鸦圆圈 -->
+  <circle cx="140" cy="90" r="10" fill="none" stroke="#E0A23F" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- 标题：荧光笔高亮 + 斜体衬线（先画高亮再画字） -->
+  <rect x="210" y="116" width="260" height="11" fill="#FFB3C2" opacity="0.5"/>
+  <text x="340" y="125" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-weight="700" font-size="29" fill="#3A3428" text-anchor="middle">Pull someone's leg</text>
+  <!-- 音标 -->
+  <text x="340" y="152" font-family="Georgia,'Times New Roman',serif" font-size="13" fill="#8A8272" text-anchor="middle">/pʊl ˈsʌmwʌnz leɡ/</text>
+
+  <!-- 分隔线 -->
+  <line x1="130" y1="180" x2="550" y2="180" stroke="#E3CF7A" stroke-width="1"/>
+
+  <!-- 含义：荧光笔色块 + 加粗黑字 -->
+  <rect x="126" y="207" width="40" height="11" fill="#FF9DB0" opacity="0.55"/>
+  <text x="130" y="215" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="700" font-size="13" fill="#3A3428">含义</text>
+  <text x="205" y="215" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#4A4438">开玩笑；愚弄；戏弄。朋友间轻松的调侃。</text>
+
+  <!-- 例句 -->
+  <rect x="126" y="253" width="40" height="11" fill="#8FD6A8" opacity="0.55"/>
+  <text x="130" y="261" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="700" font-size="13" fill="#3A3428">例句</text>
+  <text x="205" y="261" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#4A4438">"You're <tspan font-weight="700" fill="#B4443C">pulling my leg</tspan>, right?"（你在逗我吧？）</text>
+  <text x="205" y="277" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#4A4438">"I was just <tspan font-weight="700" fill="#B4443C">pulling your leg</tspan>."（我刚开玩笑的。）</text>
+
+  <!-- 来源 -->
+  <rect x="126" y="315" width="40" height="11" fill="#FFC46B" opacity="0.55"/>
+  <text x="130" y="323" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="700" font-size="13" fill="#3A3428">来源</text>
+  <text x="205" y="323" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#4A4438">19世纪英国，最早见于1811年文献，源于恶作剧拉腿绊倒。</text>
+
+  <!-- 记忆：右移后单行超宽，拆两行 -->
+  <rect x="126" y="369" width="40" height="11" fill="#9DB8FF" opacity="0.55"/>
+  <text x="130" y="377" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="700" font-size="13" fill="#3A3428">记忆</text>
+  <text x="205" y="377" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#4A4438">朋友讲笑话时伸手拉你裤脚 →</text>
+  <text x="205" y="393" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#4A4438">pull=拉，leg=腿 → 拉腿=开玩笑。</text>
+
+  <!-- 页脚 -->
+  <text x="340" y="452" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" fill="#8A8272" text-anchor="middle">每日一俗语 · 让英语融入生活</text>
+</svg>
