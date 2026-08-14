@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520">
+  <!-- 页面背景 -->
+  <rect width="680" height="520" fill="#FAFAF8"/>
+
+  <!-- 卡片主体：白卡 + 细线边框 -->
+  <rect x="70" y="40" width="540" height="440" rx="8" fill="#FFFFFF" stroke="#E8E7E2" stroke-width="1"/>
+
+  <!-- 顶部栏目行：左英文栏目名，右中文日期，同一字号 -->
+  <text x="110" y="88" font-family="Georgia,'Times New Roman',serif" font-size="11" letter-spacing="3" fill="#A19F96">DAILY IDIOM</text>
+  <text x="570" y="88" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#A19F96" text-anchor="end">6月18日</text>
+  <line x1="110" y1="102" x2="570" y2="102" stroke="#E8E7E2" stroke-width="1"/>
+
+  <!-- 标题：左对齐衬线大字 -->
+  <text x="110" y="148" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="34" fill="#1F1E1A">Pull someone's leg</text>
+  <!-- 音标 -->
+  <text x="110" y="174" font-family="Georgia,'Times New Roman',serif" font-size="13" fill="#A19F96">/pʊl ˈsʌmwʌnz leɡ/</text>
+  <!-- 强调小色块 -->
+  <rect x="110" y="190" width="28" height="3" fill="#534AB7"/>
+
+  <!-- 含义 -->
+  <text x="110" y="240" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="12" fill="#1F1E1A">含义</text>
+  <text x="110" y="253" font-family="Georgia,'Times New Roman',serif" font-size="9" letter-spacing="2" fill="#A19F96">MEANING</text>
+  <text x="220" y="240" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#33322E">开玩笑；愚弄；戏弄。朋友间轻松的调侃。</text>
+  <line x1="110" y1="262" x2="570" y2="262" stroke="#EFEEE9" stroke-width="1"/>
+
+  <!-- 例句 -->
+  <text x="110" y="286" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="12" fill="#1F1E1A">例句</text>
+  <text x="110" y="299" font-family="Georgia,'Times New Roman',serif" font-size="9" letter-spacing="2" fill="#A19F96">EXAMPLE</text>
+  <text x="220" y="286" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#33322E">"You're <tspan font-weight="700" fill="#534AB7">pulling my leg</tspan>, right?"（你在逗我吧？）</text>
+  <text x="220" y="302" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#33322E">"I was just <tspan font-weight="700" fill="#534AB7">pulling your leg</tspan>."（我刚开玩笑的。）</text>
+  <line x1="110" y1="318" x2="570" y2="318" stroke="#EFEEE9" stroke-width="1"/>
+
+  <!-- 来源 -->
+  <text x="110" y="342" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="12" fill="#1F1E1A">来源</text>
+  <text x="110" y="355" font-family="Georgia,'Times New Roman',serif" font-size="9" letter-spacing="2" fill="#A19F96">ORIGIN</text>
+  <text x="220" y="342" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#33322E">19世纪英国，最早见于1811年文献，源于恶作剧拉腿绊倒。</text>
+  <line x1="110" y1="358" x2="570" y2="358" stroke="#EFEEE9" stroke-width="1"/>
+
+  <!-- 记忆 -->
+  <text x="110" y="382" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" font-size="12" fill="#1F1E1A">记忆</text>
+  <text x="110" y="395" font-family="Georgia,'Times New Roman',serif" font-size="9" letter-spacing="2" fill="#A19F96">MEMORY</text>
+  <text x="220" y="382" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#33322E">朋友讲笑话时伸手拉你裤脚 →</text>
+  <text x="220" y="398" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#33322E">pull=拉，leg=腿 → 拉腿=开玩笑。</text>
+
+  <!-- 页脚 -->
+  <text x="340" y="452" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="11" fill="#A19F96" text-anchor="middle">每日一俗语 · 让英语融入生活</text>
+</svg>
