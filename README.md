@@ -9,7 +9,7 @@
 ## ✨ 特性
 
 - 📅 **每日一条**：自动推荐生活中、职场中高频使用的英语俗语
-- 🎨 **SVG 可视化卡片**：配色统一、样式固定，可直接分享或用于小红书等平台
+- 🎨 **8 款卡片模板**：手账、便利贴、极光暗夜、横线笔记本等风格任选，改一行配置即可换肤（见 [templates/cards/](templates/cards/)）
 - 🧠 **结构化学习内容**：含义、2 条例句、俗语来源、记忆小提示、关键词联想
 - 🔄 **自动去重**：基于 `memory.md` 历史记录，绝不重复推荐
 - 🛡️ **工程化设计**：内置失败模式编码、异常处理表、反例黑名单（详见 SKILL.md）
@@ -31,6 +31,23 @@
 | [03](examples/03-the-whole-nine-yards.md) | The whole nine yards | 2026-06-21 |
 | [04](examples/04-dont-count-your-chickens-before-they-hatch.md) | Don't count your chickens before they hatch | 2026-06-23 |
 | [05](examples/05-face-the-music.md) | Face the music | 2026-06-24 |
+
+## 🎴 卡片模板选择
+
+内置 8 款卡片风格，预览见 [templates/cards/README.md](templates/cards/README.md)：
+
+| 编号 | 风格 | 编号 | 风格 |
+|---|---|---|---|
+| A | 轻改紫卡（默认） | F | 复古报纸 |
+| B | 手账风 | G | 便利贴 |
+| C | 极简编辑 | I | 极光暗夜 |
+| J | 蜜桃盐系 | K | 横线笔记本 |
+
+在 `memory.md` 顶部「配置」区设置即可切换：
+
+```
+卡片模板: G        # 换成你想要的编号；设为 ROTATE 则按周轮换
+```
 
 ## 📦 安装方法
 
@@ -91,19 +108,22 @@ git clone https://github.com/fang-123559/daily-english-idiom.git
 
 ```
 daily-english-idiom/
-├── SKILL.md                      # Skill 核心定义（执行流程 + 模板规范 + 异常处理）
+├── SKILL.md                      # Skill 核心定义（执行流程 + 模板选择逻辑 + 异常处理）
 ├── README.md                     # 本文件
 ├── LICENSE                       # MIT 许可证
 ├── prompts/
 │   └── automation-prompt.md      # 自动化定时任务的 prompt 模板
 ├── templates/
-│   └── memory-template.md        # memory.md 历史记录模板（去重用）
+│   ├── memory-template.md        # memory.md 模板（含卡片模板配置区）
+│   └── cards/                    # 8 款卡片模板（每款 = 生成规范 .md + 预览 .svg）
+│       └── README.md             # 模板索引与选择说明
 └── examples/                     # 完整输出示例（SVG 卡片 + 结构化文字）
 ```
 
 ## ⚙️ 自定义
 
-- **改配色**：修改 SKILL.md 中 SVG 标签的 fill 颜色即可
+- **换卡片风格**：修改 `memory.md` 配置区的 `卡片模板` 字段（A/B/C/F/G/I/J/K/ROTATE）
+- **改某款模板配色**：修改 `templates/cards/` 下对应 .md 规范中的色值
 - **改推送风格**：调整「结构化文字」部分的模板结构
 - **改触发场景**：修改 SKILL.md frontmatter 中的 `description` 触发词
 

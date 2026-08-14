@@ -9,6 +9,11 @@
 
 ## 执行流程（必须严格遵守）
 
+### 第零步：确认卡片模板
+1. 读取 `{PROJECT_DIR}/memory.md` 顶部「配置」区的 `卡片模板` 字段（如 `卡片模板: G`）
+2. 字段缺失 → 默认 `A` 并补写入配置区；字段为 `ROTATE` → 按当年第几周对 8 取模从 [A, B, C, F, G, I, J, K] 中选
+3. 编号与规范文件映射见 `{PROJECT_DIR}/templates/cards/README.md`
+
 ### 第一步：读取历史记录（避免重复）
 1. 读取文件：`{PROJECT_DIR}/memory.md`
 2. 找到「历史推荐」表格，获取所有已推送过的俗语列表
@@ -23,25 +28,14 @@
 按以下**完整格式**输出：
 
 #### 第一部分：SVG 可视化卡片
-使用 `show_widget` 生成，严格按以下参数和样式：
-- **viewBox**: "0 0 680 520"
-- **卡片主体**: x="40" y="20" width="600" height="480" rx="16" fill="#F8F7FE" stroke="#534AB7" stroke-width="1.5"
-- **日期胶囊**: x="70" y="45" width="100" height="28" rx="14" fill="#534AB7"，文字 font:500 13px #FFFFFF，text-anchor:middle，x="120" y="64"
-- **标题**: font:600 28px fill:#26215C，text-anchor:middle，x="340" y="110"（过长>20字符时拆为两行，字号26px）
-- **音标**: font:400 14px fill:#888780，text-anchor:middle，x="340" y="140"
-- **分隔线**: x1="70" y1="165" x2="610" y2="165" stroke="#534AB7" stroke-width="1" stroke-opacity="0.3"
-- **标签**（统一尺寸 x="100" width="60" height="26" rx="6"，文字 font:500 12px #FFFFFF text-anchor:middle，x="130"）:
-  - 含义：fill="#7F77DD"，y="203"
-  - 例句：fill="#0F6E56"，y="248"
-  - 来源：fill="#BA7517"，y="313"
-  - 记忆：fill="#D85A30"，y="378"
-- **页脚**: font:400 12px fill="#888780" text-anchor:middle，x="340" y="475"
+使用 `show_widget` 生成。打开 `{PROJECT_DIR}/templates/cards/` 下配置对应的规范文件（如 `G` → `G-sticky.md`），严格按其中的坐标、色值、字体参数执行；同目录同名 `.svg` 为成品示例。
 
-#### 文本渲染规范（重要）
-- 每行使用独立的 `<text x="145" y="起始Y">内容</text>`
-- 行间距：16px（如 y="222", y="238", y="254"）
-- 例句中的**俗语部分**使用 `<tspan font-weight="700" fill="#0F6E56">` 高亮
-- 每段内容最多3行，超出则精简文字
+通用适配规则（必须遵守）：
+- 标题 ≤20 字符用规范标准字号；21–32 字符降为次级字号；>32 字符在语义边界拆两行，后续元素 y 坐标按规范说明下移
+- 每段内容最多 2 行，超出精简文字；正文每行约 30 汉字 / 65 英文字符上限
+- 段内行距 16px（K 款为 26px 横线网格，基线必须压线，见其规范）
+- 例句中的**俗语部分**用 `<tspan font-weight="700">` + 该模板强调色高亮
+- 模板规范文件无法读取 → 回退 A 款（`A-refined.md`）
 
 #### 第二部分：卡片下方结构化文字
 SVG 卡片输出后，立即输出以下结构化文字（Markdown 格式）：
@@ -106,6 +100,7 @@ SVG 卡片输出后，立即输出以下结构化文字（Markdown 格式）：
 - 日期使用"YYYY年M月D日"格式
 
 ## 异常处理
+- 模板配置无效或规范文件缺失 → 回退 A 款，记录警告
 - memory.md 不存在 → 按 templates/memory-template.md 创建
 - 历史表格损坏 → 备份后重建
 - 所有俗语已推送 → 清空历史，开始新一轮
