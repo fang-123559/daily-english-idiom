@@ -1,25 +1,34 @@
 # 每日英语俗语 Daily English Idiom 🗣️
 
-一个**开箱即用的 Skill 模板**：让 AI 每天自动推荐一条实用的英语俗语，输出**可视化 SVG 卡片 + 结构化学习内容**（含义 / 例句 / 来源 / 记忆提示），并自动去重、记录历史。
+一个面向 AI Agent 的**英语俗语学习 Skill**。每次推荐一条常用英语表达，生成 **SVG 学习卡片和结构化讲解**，包括含义、两条例句、来源和记忆提示。
 
 > 每日一俗语 · 让英语融入生活
+
+[SVG 卡片示例](examples/01-pull-someones-leg.svg) · [完整学习示例](examples/01-pull-someones-leg.md) · [执行规则](SKILL.md)
+
+在支持加载 Skill 的 Agent 中可用对话触发。若要每日运行，需配置定时任务。SVG 渲染工具不可用或渲染重试失败时，改用纯文本输出。
 
 ---
 
 ## ✨ 特性
 
-- 📅 **每日一条**：自动推荐生活中、职场中高频使用的英语俗语
+- 📅 **每次一条**：推荐生活或职场中常用的英语俗语
 - 🎨 **8 款卡片模板**：手账、便利贴、极光暗夜、横线笔记本等风格任选，改一行配置即可换肤（见 [templates/cards/](templates/cards/)）
 - 🧠 **结构化学习内容**：含义、2 条例句、俗语来源、记忆小提示、关键词联想
-- 🔄 **自动去重**：基于 `memory.md` 历史记录，绝不重复推荐
+- 🔄 **历史去重**：依据 `memory.md` 避开已推荐的俗语。读取超时时会跳过历史检查并记录警告。
 - 🛡️ **工程化设计**：内置失败模式编码、异常处理表、反例黑名单（详见 SKILL.md）
 - ⚙️ **可接入自动化**：可配置为每日定时任务自动执行
 
 ## 🖼️ 效果预览
 
 <p align="center">
-  <img src="examples/01-pull-someones-leg.svg" width="340"/>
-  <img src="examples/05-face-the-music.svg" width="340"/>
+  <a href="examples/01-pull-someones-leg.md"><img src="examples/01-pull-someones-leg.svg" width="340" alt="英语俗语学习卡片 · Pull someone’s leg"/></a>
+  <a href="examples/02-the-squeaky-wheel-gets-the-grease.md"><img src="examples/02-the-squeaky-wheel-gets-the-grease.svg" width="340" alt="英语俗语学习卡片 · The squeaky wheel gets the grease"/></a>
+</p>
+
+<p align="center">
+  <a href="examples/03-the-whole-nine-yards.md"><img src="examples/03-the-whole-nine-yards.svg" width="340" alt="英语俗语学习卡片 · The whole nine yards"/></a>
+  <a href="examples/05-face-the-music.md"><img src="examples/05-face-the-music.svg" width="340" alt="英语俗语学习卡片 · Face the music"/></a>
 </p>
 
 更多示例见 [examples/](examples/)：
